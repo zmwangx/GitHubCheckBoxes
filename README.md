@@ -1,7 +1,7 @@
 # GitHubCheckBoxes
 
-![Version](https://img.shields.io/github/release/zmwangx/GitHubCheckBoxes.svg)
-![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)
+[![Latest release](https://img.shields.io/github/release/zmwangx/GitHubCheckBoxes.svg)](https://github.com/zmwangx/GitHubCheckBoxes/releases/latest)
+[![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)](COPYING)
 
 Tired of checking off GFM checkboxes in issue or pull request templates? This
 extension to the rescue.
