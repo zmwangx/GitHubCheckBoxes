@@ -5,7 +5,7 @@
   "description": "Check GFM checkboxes in GitHub issue or pull request editing area.",
   "author": "Zhiming Wang",
   "homepage_url": "http://github.com/zmwangx/GitHubCheckBoxes",
-  "browser_action": {
+  "page_action": {
     "default_title": "Check boxes",
     "default_icon": {
       "19": "images/check-19.png",
@@ -13,7 +13,8 @@
     }
   },
   "background": {
-    "scripts": ["events.js"]
+    "scripts": ["events.js"],
+    "persistent": false
   },
   "content_scripts": [
     {
