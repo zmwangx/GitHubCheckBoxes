@@ -5,6 +5,20 @@
 Tired of checking off GFM checkboxes in issue or pull request templates? This
 extension to the rescue.
 
+## Table of contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [What it does](#what-it-does)
+- [How to use](#how-to-use)
+- [Caution](#caution)
+- [Packaging](#packaging)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## What it does
 
 This extension basically does `perl -pe 's/^(\s*)-\s+[ ]/\1- [x]/g'` on all
