@@ -1,5 +1,7 @@
 # GitHubCheckBoxes
 
+![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)
+
 Tired of checking off GFM checkboxes in issue or pull request templates? This
 extension to the rescue.
 
@@ -46,3 +48,11 @@ Then,
 gem install extensionator
 extensionator --directory="source" --identity="key.pem" --output="dist/GitHubCheckBoxes-$(git describe 2>/dev/null).crx"
 ```
+
+## License
+
+Copyright © 2016 Zhiming Wang <zmwangx@gmail.com>
+
+This work is free. You can redistribute it and/or modify it under the terms of
+the Do What The Fuck You Want To Public License, Version 2, as published by Sam
+Hocevar. See the COPYING file for more details.
