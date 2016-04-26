@@ -1,0 +1,23 @@
+#!/usr/bin/env zsh
+
+setopt errexit
+
+print_error () print -R $'\e[31m'"Error: $*"$'\e[0m' >&2
+
+here=$0:A:h
+
+new_version_sans_v=${1#v}
+[[ $new_version_sans_v =~ ^[0-9]+(\.[0-9]+){0,2}$ ]] || {
+    print_error "${(q-)new_version_sans_v} is not a valid version number."
+    exit 1
+}
+
+current_version_sans_v=${$(git describe 2>/dev/null)#v} || {
+    print_error 'Cannot parse current version.'
+    exit 1
+}
+
+sed -i "s/\"version\": \"${current_version_sans_v}\"/\"version\": \"${new_version_sans_v}\"/" $here/../source/manifest.json
+sed -i "/updatecheck/ s/${current_version_sans_v}/${new_version_sans_v}/g" $here/../dist/updates.xml
+
+git diff
