@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "GitHubCheckBoxes",
-  "version": "0.1",
+  "version": "0.2.1",
   "description": "Check GFM checkboxes in GitHub issue or pull request editing area.",
   "author": "Zhiming Wang",
   "homepage_url": "http://github.com/zmwangx/GitHubCheckBoxes",
