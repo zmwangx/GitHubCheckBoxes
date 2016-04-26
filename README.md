@@ -1,5 +1,6 @@
 # GitHubCheckBoxes
 
+![Version: 0.1](https://img.shields.io/badge/version-0.1-blue.svg)
 ![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)
 
 Tired of checking off GFM checkboxes in issue or pull request templates? This
