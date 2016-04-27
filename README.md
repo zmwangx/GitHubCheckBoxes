@@ -32,9 +32,10 @@ Just click the check button.
 ## Caution
 
 1. All `textarea` tags are affected by this extension. At the time of writing,
-   there is one `textarea` associated with each comment that belongs to the
-   user, even if it is not being edited, and the modifications will show up if
-   you later click the edit button. Be aware of unwanted edits.
+   there is one `textarea` associated to each comment that belongs to the
+   currently logged-in user, even if it is not being edited; and the
+   modifications will show up if you later click the edit button. Be aware of
+   unwanted edits.
 
 2. A line like
 
